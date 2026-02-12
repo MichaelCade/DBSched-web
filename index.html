@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBSched - Centralized Database Backup Scheduler</title>
+    <meta name="description" content="DBSched is a multi-database backup and scheduling tool supporting Postgres, MySQL, MongoDB, Redis, and more.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <i class="fas fa-database"></i>
+                    <span>DBSched</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#subscribe">Notify Me</a></li>
+                    <li><a href="#docs">Documentation</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Centralized Database Backup Made Simple</h1>
+                    <p class="hero-subtitle">Automate, monitor, and manage backups across all your databases — Postgres, MySQL, MongoDB, Redis, and 40+ types — all from a single modern UI.</p>
+                    <div class="hero-actions">
+                        <a href="#subscribe" class="btn btn-primary">
+                            <i class="fas fa-bell"></i>
+                            Notify Me
+                        </a>
+                        <a href="#features" class="btn btn-outline">
+                            <i class="fas fa-info-circle"></i>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="dashboard-preview">
+                        <div class="dashboard-header">
+                            <div class="dashboard-title">DBSched Dashboard</div>
+                            <div class="dashboard-status">
+                                <span class="status-dot active"></span>
+                                <span>Coming Soon...</span>
+                            </div>
+                        </div>
+                        <div class="cloud-icons">
+                            <i class="fas fa-database" title="Multi-Database"></i>
+                            <i class="fas fa-clock" title="Scheduler"></i>
+                            <i class="fas fa-chart-bar" title="Job Monitoring"></i>
+                            <i class="fas fa-docker" title="Docker Ready"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-database"></i></div>
+                        <h3>Multi-Database Support</h3>
+                        <p>Postgres, MySQL, MongoDB, Redis, and 40+ other database types</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Flexible Scheduling</h3>
+                        <p>Cron-based automated backups with full control over timing and frequency</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>Modern UI</h3>
+                        <p>Responsive, dark-themed Material UI design for easy management</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-plug"></i></div>
+                        <h3>Connection Testing</h3>
+                        <p>Verify database credentials before saving to ensure smooth backups</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Job Monitoring</h3>
+                        <p>Track backup history and status across all databases in real-time</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-docker"></i></div>
+                        <h3>Docker Ready</h3>
+                        <p>Fully containerized solution with Docker Compose for easy deployment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUBSCRIBE -->
+        <section id="subscribe" class="download">
+            <div class="container">
+                <h2>Notify Me When DBSched Launches</h2>
+                <p class="download-subtitle">Enter your email to stay updated</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-bell"></i> Notify Me</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- DOCUMENTATION -->
+        <section id="docs" class="documentation">
+            <div class="container">
+                <h2>Documentation</h2>
+                <div class="docs-grid">
+                    <div class="doc-card">
+                        <div class="doc-icon"><i class="fas fa-play"></i></div>
+                        <h3>Getting Started</h3>
+                        <p>Quick setup guide and first steps with DBSched</p>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon"><i class="fas fa-cog"></i></div>
+                        <h3>Configuration</h3>
+                        <p>Set up database connections, schedules, and preferences</p>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon"><i class="fas fa-code"></i></div>
+                        <h3>API Reference</h3>
+                        <p>Programmatically manage backups via REST API endpoints</p>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon"><i class="fas fa-wrench"></i></div>
+                        <h3>Troubleshooting</h3>
+                        <p>Common issues and solutions for database backup jobs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-database"></i>
+                    <span>DBSched</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#docs">Documentation</a>
+                    <a href="#subscribe">Notify Me</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DBSched. Centralized Database Backup Scheduler.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
